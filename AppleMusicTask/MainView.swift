@@ -8,25 +8,30 @@
 import SwiftUI
 
 struct MainView: View {
+    
     var body: some View {
-        TabView {
-            LibraryView()
-                .tabItem {
-                    Image(systemName: "music.note.house")
-                    Text("Медиатека")
-                }
-            Text("Пробный")
-                .tabItem {
-                    Image(systemName: "dot.radiowaves.left.and.right")
-                    Text("Радио")
-                }
-            Text("Пробный")
-                .tabItem {
-                    Image(systemName: "magnifyingglass")
-                    Text("Поиск")
-                }
+        ZStack {
+            TabView {
+                LibraryView()
+                    .tabItem {
+                        Image(systemName: "music.note.house")
+                        Text("Медиатека")
+                    }
+                Color.red
+                    .tabItem {
+                        Image(systemName: "dot.radiowaves.left.and.right")
+                        Text("Радио")
+                    }
+                Color.orange
+                    .tabItem {
+                        Image(systemName: "magnifyingglass")
+                        Text("Поиск")
+                    }
+            }
+            .tint(.red)
+            PlayerMusic()
+                .offset(y: 287)
         }
-        .tint(.red)
     }
 }
 
