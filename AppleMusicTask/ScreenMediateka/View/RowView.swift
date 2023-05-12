@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RowView: View {
     
-    var model: Model
+    var model: ModelList
     
     var body: some View {
         HStack {
@@ -33,7 +33,7 @@ struct RowView: View {
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(model: Model(image: "flame.fill",
+        RowView(model: ModelList(image: "flame.fill",
                              title: "Hello",
                              isSelected: true))
     }

@@ -17,7 +17,7 @@ struct MainView: View {
                         Image(systemName: "music.note.house")
                         Text("Медиатека")
                     }
-                Color.red
+                RadioView()
                     .tabItem {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
@@ -30,7 +30,7 @@ struct MainView: View {
             }
             .tint(.red)
             PlayerMusic()
-                .offset(y: 287)
+                .offset(y: 298)
         }
     }
 }

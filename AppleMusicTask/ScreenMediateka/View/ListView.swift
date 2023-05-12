@@ -11,17 +11,17 @@ import SwiftUI
 
 struct ListView: View {
     
-    @ObservedObject var listModel = ListModel()
+    @ObservedObject var listMusic = ListMusic()
     
     var body: some View {
         List {
-            ForEach(listModel.dataList, id: \.self) { model in
+            ForEach(listMusic.dataList, id: \.self) { model in
                 RowView(model: model)
                     .onTapGesture {
-                        listModel.updateList(model: model)
+                        listMusic.updateList(model: model)
                     }
             }
-            .onMove(perform: listModel.move)
+            .onMove(perform: listMusic.move)
         }
         .listStyle(.inset)
     }

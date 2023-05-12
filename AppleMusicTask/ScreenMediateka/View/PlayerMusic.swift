@@ -15,7 +15,7 @@ struct PlayerMusic: View {
                 .frame(height: 65)
             
             HStack {
-                Image("Image5")
+                Image("Image9")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 55, height: 55)
