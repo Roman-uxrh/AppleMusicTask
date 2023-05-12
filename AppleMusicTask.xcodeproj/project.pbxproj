@@ -19,6 +19,8 @@
 		84AC3CEF2A0DAD1700E88708 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC3CEE2A0DAD1700E88708 /* RadioView.swift */; };
 		84AC3CF22A0DAEF200E88708 /* MusicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC3CF12A0DAEF200E88708 /* MusicListView.swift */; };
 		84AC3CFA2A0DB02B00E88708 /* ModelMusicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC3CF92A0DB02B00E88708 /* ModelMusicList.swift */; };
+		84AC3CFC2A0EB84E00E88708 /* ModelRadioList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC3CFB2A0EB84E00E88708 /* ModelRadioList.swift */; };
+		84AC3CFE2A0EBDA500E88708 /* RadioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC3CFD2A0EBDA500E88708 /* RadioListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		84AC3CEE2A0DAD1700E88708 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 		84AC3CF12A0DAEF200E88708 /* MusicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListView.swift; sourceTree = "<group>"; };
 		84AC3CF92A0DB02B00E88708 /* ModelMusicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMusicList.swift; sourceTree = "<group>"; };
+		84AC3CFB2A0EB84E00E88708 /* ModelRadioList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRadioList.swift; sourceTree = "<group>"; };
+		84AC3CFD2A0EBDA500E88708 /* RadioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 			children = (
 				84AC3CEE2A0DAD1700E88708 /* RadioView.swift */,
 				84AC3CF12A0DAEF200E88708 /* MusicListView.swift */,
+				84AC3CFD2A0EBDA500E88708 /* RadioListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				84AC3CF92A0DB02B00E88708 /* ModelMusicList.swift */,
+				84AC3CFB2A0EB84E00E88708 /* ModelRadioList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,10 +218,12 @@
 				841E602729FC5E21008CC97A /* ModelList.swift in Sources */,
 				84091A3F2A05AE1A00BA2855 /* RowView.swift in Sources */,
 				841E602529FC5DF2008CC97A /* ListView.swift in Sources */,
+				84AC3CFC2A0EB84E00E88708 /* ModelRadioList.swift in Sources */,
 				841E601529FB064E008CC97A /* LibraryView.swift in Sources */,
 				84AC3CF22A0DAEF200E88708 /* MusicListView.swift in Sources */,
 				84AC3CEF2A0DAD1700E88708 /* RadioView.swift in Sources */,
 				841E602329FB1878008CC97A /* MainView.swift in Sources */,
+				84AC3CFE2A0EBDA500E88708 /* RadioListView.swift in Sources */,
 				84AC3CFA2A0DB02B00E88708 /* ModelMusicList.swift in Sources */,
 				84091A412A05BAF900BA2855 /* PlayerMusic.swift in Sources */,
 				841E601329FB064E008CC97A /* AppleMusicTaskApp.swift in Sources */,

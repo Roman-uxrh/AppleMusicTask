@@ -6,14 +6,13 @@
 //
 
 import Foundation
-import SwiftUI
 
 struct ModelMusicList: Identifiable, Hashable {
-    var id: String
-    var radio: String
-    var music: String
-    var category: String
-    var image: String
+    let id: String
+    let radio: String
+    let music: String
+    let category: String
+    let image: String
     
     init(id: String = UUID().uuidString,
          radio: String,
@@ -30,7 +29,7 @@ struct ModelMusicList: Identifiable, Hashable {
 }
 
 final class MusicList {
-    var dataList: [ModelMusicList] = [ModelMusicList(radio: "Новый выпуск",
+    let dataList: [ModelMusicList] = [ModelMusicList(radio: "Новый выпуск",
                                                      music: "Музыкальный базар с бастой",
                                                      category: "Новое шоу",
                                                      image: "image1"),

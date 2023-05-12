@@ -28,7 +28,7 @@ struct MusicListView: View {
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(8)
-                .frame(width: 360)
+                .frame(width: 320)
             
             Divider()
                 .padding(.top, 8)
