@@ -15,6 +15,9 @@ struct MusicListView: View {
         VStack(alignment: .leading) {
             Divider()
                 .ignoresSafeArea()
+            
+            Spacer()
+            
             Text(model.radio)
                 .foregroundColor(.gray)
             
@@ -30,10 +33,13 @@ struct MusicListView: View {
                 .cornerRadius(8)
                 .frame(width: 320)
             
+            Spacer()
+            
             Divider()
                 .padding(.top, 8)
                 .ignoresSafeArea()
         }
+        .frame(height: 330)
     }
 }
 
