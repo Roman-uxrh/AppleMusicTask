@@ -20,7 +20,6 @@ struct RadioView: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical) {
-                
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHGrid(rows: rows) {
                         ForEach(musicList.dataList, id: \.self) { model in
