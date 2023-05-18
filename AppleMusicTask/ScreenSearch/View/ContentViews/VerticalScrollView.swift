@@ -17,7 +17,7 @@ struct VerticalScrollView: View {
         ScrollView(.vertical) {
             HStack {
                 Text("Поиск по категориям")
-                    .fontWeight(.bold)
+                    .fontWeight(.heavy)
                     .font(.system(size: 20))
                 
                 Spacer()

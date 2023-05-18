@@ -29,6 +29,7 @@
 		84C5D6D82A15899A0020B3FB /* DetailCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6D72A1589990020B3FB /* DetailCategoryView.swift */; };
 		84C5D6DC2A158E3F0020B3FB /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6DB2A158E3F0020B3FB /* PlaylistView.swift */; };
 		84C5D6DE2A1592600020B3FB /* ModelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6DD2A1592600020B3FB /* ModelDetailView.swift */; };
+		84C5D6E22A16959E0020B3FB /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6E12A16959E0020B3FB /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		84C5D6D72A1589990020B3FB /* DetailCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCategoryView.swift; sourceTree = "<group>"; };
 		84C5D6DB2A158E3F0020B3FB /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
 		84C5D6DD2A1592600020B3FB /* ModelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDetailView.swift; sourceTree = "<group>"; };
+		84C5D6E12A16959E0020B3FB /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				841E601129FB064D008CC97A /* AppleMusicTask */,
+				841E601629FB0659008CC97A /* Assets.xcassets */,
 				841E601029FB064D008CC97A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,7 +95,6 @@
 				84AC3CEC2A0DAC3700E88708 /* ScreenMediateka */,
 				84AC3CED2A0DAC6300E88708 /* ScreenRadio */,
 				84C5D6C72A11615B0020B3FB /* ScreenSearch */,
-				841E601629FB0659008CC97A /* Assets.xcassets */,
 				841E601829FB0659008CC97A /* Preview Content */,
 			);
 			path = AppleMusicTask;
@@ -229,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				84C5D6DB2A158E3F0020B3FB /* PlaylistView.swift */,
+				84C5D6E12A16959E0020B3FB /* CategoryView.swift */,
 			);
 			path = ContentViews;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				84AC3CF22A0DAEF200E88708 /* MusicListView.swift in Sources */,
 				84C5D6D52A15674A0020B3FB /* RowVerticalView.swift in Sources */,
 				84C5D6CD2A1555C80020B3FB /* LineSearchView.swift in Sources */,
+				84C5D6E22A16959E0020B3FB /* CategoryView.swift in Sources */,
 				84C5D6D32A1561F60020B3FB /* ModelCategoryList.swift in Sources */,
 				84C5D6DC2A158E3F0020B3FB /* PlaylistView.swift in Sources */,
 				84AC3CEF2A0DAD1700E88708 /* RadioView.swift in Sources */,

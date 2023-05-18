@@ -14,7 +14,7 @@ struct PlaylistView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("избранный плейлист")
-                .bold()
+                .fontWeight(.heavy)
                 .font(.system(size: 14))
                 .foregroundColor(Color(CGColor(gray: 0.45, alpha: 1)))
             Text(model.namePlaylist.randomElement() ?? "")
@@ -26,7 +26,7 @@ struct PlaylistView: View {
                 Image(model.image.randomElement() ?? "")
                     .resizable()
                     .scaledToFill()
-                    .frame(width: UIScreen.main.bounds.width / 1.05,
+                    .frame(width: UIScreen.main.bounds.width / 1.1,
                            height: UIScreen.main.bounds.width / 1.4)
                     .cornerRadius(10)
                 HStack {
@@ -42,6 +42,7 @@ struct PlaylistView: View {
             }
         }
         .padding()
+        .frame(width: UIScreen.main.bounds.width)
     }
 }
 
