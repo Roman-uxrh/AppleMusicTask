@@ -20,24 +20,16 @@ struct RadioView: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical) {
-                
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHGrid(rows: rows) {
                         ForEach(musicList.dataList, id: \.self) { model in
                             MusicListView(model: model)
                         }
-                        .frame(height: 340)
                         .padding(.leading, 10)
                     }
                 }
                 
-                HStack {
-                    Text("Станции")
-                        .font(.system(size: 25))
-                        .bold()
-                        .padding(.leading, 15)
-                    Spacer()
-                }
+                LineView()
                 
                 ScrollView(.vertical, showsIndicators: false) {
                     LazyVGrid(columns: columns) {

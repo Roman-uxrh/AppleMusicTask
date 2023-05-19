@@ -29,6 +29,7 @@ struct RadioListView: View {
                         .foregroundColor(.gray)
                 }
                 .padding(.leading, 15)
+                
                 Spacer()
             }
             .padding()

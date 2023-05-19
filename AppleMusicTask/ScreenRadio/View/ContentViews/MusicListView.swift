@@ -29,9 +29,10 @@ struct MusicListView: View {
             
             Image(model.image)
                 .resizable()
-                .scaledToFit()
+                .scaledToFill()
+                .frame(width: (UIScreen.main.bounds.width) - 10,
+                       height: UIScreen.main.bounds.width / 1.8)
                 .cornerRadius(8)
-                .frame(width: 320)
             
             Spacer()
             
@@ -48,6 +49,6 @@ struct MusicView_Previews: PreviewProvider {
         MusicListView(model: ModelMusicList(radio: "dddd",
                                             music: "ddddd",
                                             category: "ddddd",
-                                            image: "image1"))
+                                            image: "image12"))
     }
 }

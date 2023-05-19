@@ -18,13 +18,16 @@ struct RowView: View {
                 .scaledToFit()
                 .foregroundColor(model.isSelected ? Color.red : Color.gray)
                 .frame(width: 20, height: 20)
+            
             Image(systemName: model.image)
                 .resizable()
                 .scaledToFit()
                 .foregroundColor(Color.red)
                 .frame(width: 22, height: 22)
                 .padding(.horizontal, 10)
+            
             Text(model.title)
+            
             Spacer()
         }
         .padding(.leading, 10)

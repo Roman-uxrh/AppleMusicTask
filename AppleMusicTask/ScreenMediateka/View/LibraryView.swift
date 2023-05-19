@@ -23,37 +23,11 @@ struct LibraryView: View {
                 }
             }
             .navigationTitle("Медиатека")
-            
             .toolbar {
-                Button(action: {
-                    isEditing.toggle()
-                    editMode = isEditing ? .active : .inactive
-                }, label: {
-                    Text(isEditing ? "Готово" : "Править")
-                })
-                .foregroundColor(.orange)
-                .padding(.trailing, 20)
-                .padding(.bottom, 20)
+                ToolBarView(isEditing: $isEditing, editMode: $editMode)
             }
             .environment(\.editMode, $editMode)
         }
-    }
-}
-
-
-struct FrontView: View {
-    var body: some View {
-        VStack {
-            Text("Ищете свою музыку?")
-                .font(.system(size: 20))
-                .fontWeight(.bold)
-            
-            Text("Здесь появится купленная Вами в iTunes Store музыка.")
-                .font(.system(size: 15))
-                .multilineTextAlignment(.center)
-                .foregroundColor(Color(cgColor: .init(gray: 0.4, alpha: 0.8)))
-        }
-        .frame(width: 280)
     }
 }
 
