@@ -16,7 +16,6 @@ struct SearchView: View {
             ScrollView(.vertical) {
                 LineSearchView(textSearch: $textSearch)
                 VerticalScrollView()
-                    
             }
             .navigationTitle("Поиск")
             .padding()

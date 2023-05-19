@@ -14,8 +14,8 @@ struct DetailCategoryView: View {
     let modelTitle: ModelCategoryList
     
     var body: some View {
-        NavigationView {
-            
+        
+        ScrollView(.vertical) {
             VStack(alignment: .leading) {
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHGrid(rows: rows) {
@@ -49,18 +49,18 @@ struct DetailCategoryView: View {
                         }
                     }
                 }
-                .padding(.top, -90)
+                .padding(.top, -15)
                 Spacer()
             }
+            
             .navigationTitle(modelTitle.title)
             .toolbar {
                 Button {
                     print("Нажата кнопка опции")
                 } label: {
-                    Image(systemName: "list.bullet.circle.fill")
+                    Image(systemName: "ellipsis.circle")
                         .tint(.red)
                 }
-
             }
         }
     }

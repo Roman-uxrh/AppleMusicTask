@@ -22,7 +22,7 @@ struct MainView: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                     }
-                Color.orange
+                SearchView()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Поиск")

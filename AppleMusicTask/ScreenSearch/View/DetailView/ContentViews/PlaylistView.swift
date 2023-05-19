@@ -17,11 +17,15 @@ struct PlaylistView: View {
                 .fontWeight(.heavy)
                 .font(.system(size: 14))
                 .foregroundColor(Color(CGColor(gray: 0.45, alpha: 1)))
+            
             Text(model.namePlaylist.randomElement() ?? "")
+            
                 .font(.system(size: 17))
+            
             Text("Apple Music")
                 .font(.system(size: 17))
                 .foregroundColor(Color(CGColor(gray: 0.45, alpha: 1)))
+            
             ZStack {
                 Image(model.image.randomElement() ?? "")
                     .resizable()
@@ -29,6 +33,7 @@ struct PlaylistView: View {
                     .frame(width: UIScreen.main.bounds.width / 1.1,
                            height: UIScreen.main.bounds.width / 1.4)
                     .cornerRadius(10)
+                
                 HStack {
                     Text(model.title.randomElement() ?? "")
                         .foregroundColor(.white)

@@ -23,10 +23,15 @@ struct VerticalScrollView: View {
                 Spacer()
             }
             .padding(.bottom, -4)
-            
+
             LazyVGrid(columns: columns) {
                 ForEach(searchCategoryList.dataList) { model in
-                    RowVerticalView(model: model)
+                    NavigationLink {
+                        DetailCategoryView(modelTitle: model)
+                    } label: {
+                        RowVerticalView(model: model)
+                    }
+                    
                 }
             }
         }

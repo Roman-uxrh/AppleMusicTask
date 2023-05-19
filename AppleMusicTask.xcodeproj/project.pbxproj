@@ -30,6 +30,12 @@
 		84C5D6DC2A158E3F0020B3FB /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6DB2A158E3F0020B3FB /* PlaylistView.swift */; };
 		84C5D6DE2A1592600020B3FB /* ModelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6DD2A1592600020B3FB /* ModelDetailView.swift */; };
 		84C5D6E22A16959E0020B3FB /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6E12A16959E0020B3FB /* CategoryView.swift */; };
+		84C5D6E52A16B6720020B3FB /* DetailPlayerMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6E42A16B6720020B3FB /* DetailPlayerMusic.swift */; };
+		84C5D6E82A16BCDA0020B3FB /* PlayerLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6E72A16BCDA0020B3FB /* PlayerLine.swift */; };
+		84C5D6EB2A16C1FF0020B3FB /* NameMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6EA2A16C1FF0020B3FB /* NameMusic.swift */; };
+		84C5D6ED2A16C2E10020B3FB /* ButtonPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6EC2A16C2E10020B3FB /* ButtonPlayer.swift */; };
+		84C5D6EF2A16C5D60020B3FB /* VolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6EE2A16C5D60020B3FB /* VolumeView.swift */; };
+		84ED51432A16D89900EBA424 /* HelpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51422A16D89900EBA424 /* HelpMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +63,12 @@
 		84C5D6DB2A158E3F0020B3FB /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
 		84C5D6DD2A1592600020B3FB /* ModelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDetailView.swift; sourceTree = "<group>"; };
 		84C5D6E12A16959E0020B3FB /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		84C5D6E42A16B6720020B3FB /* DetailPlayerMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlayerMusic.swift; sourceTree = "<group>"; };
+		84C5D6E72A16BCDA0020B3FB /* PlayerLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLine.swift; sourceTree = "<group>"; };
+		84C5D6EA2A16C1FF0020B3FB /* NameMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameMusic.swift; sourceTree = "<group>"; };
+		84C5D6EC2A16C2E10020B3FB /* ButtonPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPlayer.swift; sourceTree = "<group>"; };
+		84C5D6EE2A16C5D60020B3FB /* VolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeView.swift; sourceTree = "<group>"; };
+		84ED51422A16D89900EBA424 /* HelpMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,7 @@
 				84AC3CEC2A0DAC3700E88708 /* ScreenMediateka */,
 				84AC3CED2A0DAC6300E88708 /* ScreenRadio */,
 				84C5D6C72A11615B0020B3FB /* ScreenSearch */,
+				84C5D6E32A16B1F90020B3FB /* PlayerMusic */,
 				841E601829FB0659008CC97A /* Preview Content */,
 			);
 			path = AppleMusicTask;
@@ -175,7 +188,6 @@
 			children = (
 				841E602429FC5DF2008CC97A /* ListView.swift */,
 				84091A3E2A05AE1A00BA2855 /* RowView.swift */,
-				84091A402A05BAF900BA2855 /* PlayerMusic.swift */,
 			);
 			path = ContentViews;
 			sourceTree = "<group>";
@@ -232,6 +244,28 @@
 			children = (
 				84C5D6DB2A158E3F0020B3FB /* PlaylistView.swift */,
 				84C5D6E12A16959E0020B3FB /* CategoryView.swift */,
+			);
+			path = ContentViews;
+			sourceTree = "<group>";
+		};
+		84C5D6E32A16B1F90020B3FB /* PlayerMusic */ = {
+			isa = PBXGroup;
+			children = (
+				84091A402A05BAF900BA2855 /* PlayerMusic.swift */,
+				84C5D6E42A16B6720020B3FB /* DetailPlayerMusic.swift */,
+				84C5D6E62A16BC7E0020B3FB /* ContentViews */,
+			);
+			path = PlayerMusic;
+			sourceTree = "<group>";
+		};
+		84C5D6E62A16BC7E0020B3FB /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D6E72A16BCDA0020B3FB /* PlayerLine.swift */,
+				84C5D6EA2A16C1FF0020B3FB /* NameMusic.swift */,
+				84C5D6EC2A16C2E10020B3FB /* ButtonPlayer.swift */,
+				84C5D6EE2A16C5D60020B3FB /* VolumeView.swift */,
+				84ED51422A16D89900EBA424 /* HelpMenu.swift */,
 			);
 			path = ContentViews;
 			sourceTree = "<group>";
@@ -309,10 +343,14 @@
 				841E602729FC5E21008CC97A /* ModelList.swift in Sources */,
 				84091A3F2A05AE1A00BA2855 /* RowView.swift in Sources */,
 				841E602529FC5DF2008CC97A /* ListView.swift in Sources */,
+				84C5D6E52A16B6720020B3FB /* DetailPlayerMusic.swift in Sources */,
+				84C5D6EB2A16C1FF0020B3FB /* NameMusic.swift in Sources */,
 				84AC3CFC2A0EB84E00E88708 /* ModelRadioList.swift in Sources */,
 				841E601529FB064E008CC97A /* LibraryView.swift in Sources */,
+				84C5D6E82A16BCDA0020B3FB /* PlayerLine.swift in Sources */,
 				84AC3CF22A0DAEF200E88708 /* MusicListView.swift in Sources */,
 				84C5D6D52A15674A0020B3FB /* RowVerticalView.swift in Sources */,
+				84C5D6ED2A16C2E10020B3FB /* ButtonPlayer.swift in Sources */,
 				84C5D6CD2A1555C80020B3FB /* LineSearchView.swift in Sources */,
 				84C5D6E22A16959E0020B3FB /* CategoryView.swift in Sources */,
 				84C5D6D32A1561F60020B3FB /* ModelCategoryList.swift in Sources */,
@@ -324,7 +362,9 @@
 				84AC3CFE2A0EBDA500E88708 /* RadioListView.swift in Sources */,
 				84C5D6DE2A1592600020B3FB /* ModelDetailView.swift in Sources */,
 				84AC3CFA2A0DB02B00E88708 /* ModelMusicList.swift in Sources */,
+				84C5D6EF2A16C5D60020B3FB /* VolumeView.swift in Sources */,
 				84091A412A05BAF900BA2855 /* PlayerMusic.swift in Sources */,
+				84ED51432A16D89900EBA424 /* HelpMenu.swift in Sources */,
 				841E601329FB064E008CC97A /* AppleMusicTaskApp.swift in Sources */,
 				84C5D6D82A15899A0020B3FB /* DetailCategoryView.swift in Sources */,
 			);
