@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PlaylistView: View {
     
-    let model = ModelDetailView()
+    @Binding var model: ModelDetailView
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -51,8 +51,8 @@ struct PlaylistView: View {
     }
 }
 
-struct PlaylistView_Previews: PreviewProvider {
-    static var previews: some View {
-        PlaylistView()
-    }
-}
+//struct PlaylistView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        PlaylistView()
+//    }
+//}

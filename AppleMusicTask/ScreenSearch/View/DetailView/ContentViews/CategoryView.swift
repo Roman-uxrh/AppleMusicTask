@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CategoryView: View {
     
-    let model = ModelDetailView()
+    @Binding var model: ModelDetailView
     
     var body: some View {
         Image(model.image.randomElement() ?? "")
@@ -21,8 +21,8 @@ struct CategoryView: View {
     }
 }
 
-struct CategoryView_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoryView()
-    }
-}
+//struct CategoryView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CategoryView()
+//    }
+//}

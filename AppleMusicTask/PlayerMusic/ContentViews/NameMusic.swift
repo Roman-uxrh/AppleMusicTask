@@ -15,6 +15,7 @@ struct NameMusic: View {
                     .foregroundColor(.white)
                     .fontWeight(.heavy)
                     .font(.system(size: 19))
+                
                 Text("Мария Захарова")
                     .foregroundColor(Color(cgColor: .init(gray: 0.85, alpha: 1)))
                     .font(.system(size: 19))

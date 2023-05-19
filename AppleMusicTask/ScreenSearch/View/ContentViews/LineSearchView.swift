@@ -18,6 +18,7 @@ struct LineSearchView: View {
                 .foregroundColor(Color(cgColor: .init(gray: 0.5, alpha: 1)))
                 .frame(width: 20, height: 20)
                 .padding(.leading, 10)
+            
             TextField("Ваша медиатека", text: $textSearch)
                 .font(.system(size: 18))
         }

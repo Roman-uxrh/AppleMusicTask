@@ -44,6 +44,7 @@ struct HelpMenu: View {
                         .frame(width: 23, height: 23)
                         .foregroundColor(Color(cgColor: .init(gray: 0.4, alpha: 1)))
                         .bold()
+                    
                     Image(systemName: "shuffle.circle.fill")
                         .resizable()
                         .foregroundColor(.gray)

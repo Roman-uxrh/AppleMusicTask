@@ -9,8 +9,9 @@ import SwiftUI
 
 struct DetailCategoryView: View {
     
+    @State var model = ModelDetailView()
+    
     let rows = [GridItem()]
-    let model = ModelDetailView()
     let modelTitle: ModelCategoryList
     
     var body: some View {
@@ -20,7 +21,7 @@ struct DetailCategoryView: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHGrid(rows: rows) {
                         ForEach(1..<6) { item in
-                            PlaylistView()
+                            PlaylistView(model: $model)
                         }
                     }
                 }
@@ -45,7 +46,7 @@ struct DetailCategoryView: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHGrid(rows: rows) {
                         ForEach(1..<7) { item in
-                            CategoryView()
+                            CategoryView(model: $model)
                         }
                     }
                 }

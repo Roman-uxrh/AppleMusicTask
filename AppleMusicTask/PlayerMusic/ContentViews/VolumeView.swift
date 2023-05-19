@@ -27,7 +27,6 @@ struct VolumeView: View {
                 .scaledToFill()
                 .frame(width: 15, height: 15)
                 .foregroundColor(Color(cgColor: .init(gray: 0.35, alpha: 1)))
-//                .foregroundColor(.gray)
         }
         .padding()
     }

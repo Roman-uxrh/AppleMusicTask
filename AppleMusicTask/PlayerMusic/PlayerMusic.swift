@@ -13,9 +13,13 @@ struct PlayerMusic: View {
     
     var body: some View {
         ZStack {
+            
             Rectangle()
                 .foregroundColor(Color(cgColor: .init(gray: 0.94, alpha: 1)))
                 .frame(height: 65)
+                .onTapGesture(count: 2) {
+                    self.showModalView = true
+                }
             
             HStack {
                 Image("image9")
@@ -51,6 +55,9 @@ struct PlayerMusic: View {
                         .foregroundColor(.black)
                 }
             }
+        }
+        .sheet(isPresented: $showModalView) {
+            DetailPlayerMusic()
         }
     }
 }

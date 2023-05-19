@@ -15,10 +15,12 @@ struct PlayerLine: View {
                     .frame(height: 3)
                     .foregroundColor(Color(cgColor: .init(gray: 0.8, alpha: 1)))
                     .cornerRadius(10)
+                
                 HStack {
                     Circle()
                         .frame(width: 9)
                         .foregroundColor(.white)
+                    
                     Spacer()
                 }
             }
@@ -27,7 +29,9 @@ struct PlayerLine: View {
                 Text("0:00")
                     .font(.system(size: 12))
                     .foregroundColor(Color(cgColor: .init(gray: 0.8, alpha: 1)))
+                
                 Spacer()
+                
                 Text("-4:45")
                     .font(.system(size: 12))
                     .foregroundColor(Color(cgColor: .init(gray: 0.8, alpha: 1)))

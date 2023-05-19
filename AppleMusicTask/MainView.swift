@@ -29,6 +29,7 @@ struct MainView: View {
                     }
             }
             .tint(.red)
+            
             PlayerMusic()
                 .offset(y: 298)
         }

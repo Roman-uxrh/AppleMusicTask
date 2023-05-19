@@ -10,7 +10,8 @@ import SwiftUI
 struct DetailPlayerMusic: View {
     var body: some View {
         ZStack {
-            LinearGradient(colors: [.green, Color(cgColor: .init(gray: 0.7, alpha: 0.6))],
+            LinearGradient(colors:
+                            [.green, Color(cgColor: .init(gray: 0.7, alpha: 0.6))],
                            startPoint: .leading,
                            endPoint: .bottom)
             .ignoresSafeArea(.all)

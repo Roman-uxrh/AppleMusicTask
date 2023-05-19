@@ -20,6 +20,7 @@ struct RowVerticalView: View {
                     .frame(width: UIScreen.main.bounds.width / 2.2,
                            height: UIScreen.main.bounds.width / 3)
                     .cornerRadius(11)
+                
                 HStack {
                     Text(model.title)
                         .foregroundColor(.white)
