@@ -16,6 +16,7 @@
 		841E602329FB1878008CC97A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E602229FB1878008CC97A /* MainView.swift */; };
 		841E602529FC5DF2008CC97A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E602429FC5DF2008CC97A /* ListView.swift */; };
 		841E602729FC5E21008CC97A /* ModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E602629FC5E21008CC97A /* ModelList.swift */; };
+		849FBBFF2A2C5F3600B85A20 /* SearchViewUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FBBFE2A2C5F3600B85A20 /* SearchViewUIKit.swift */; };
 		84AC3CEF2A0DAD1700E88708 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC3CEE2A0DAD1700E88708 /* RadioView.swift */; };
 		84AC3CF22A0DAEF200E88708 /* MusicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC3CF12A0DAEF200E88708 /* MusicListView.swift */; };
 		84AC3CFA2A0DB02B00E88708 /* ModelMusicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC3CF92A0DB02B00E88708 /* ModelMusicList.swift */; };
@@ -35,6 +36,9 @@
 		84C5D6EB2A16C1FF0020B3FB /* NameMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6EA2A16C1FF0020B3FB /* NameMusic.swift */; };
 		84C5D6ED2A16C2E10020B3FB /* ButtonPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6EC2A16C2E10020B3FB /* ButtonPlayer.swift */; };
 		84C5D6EF2A16C5D60020B3FB /* VolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D6EE2A16C5D60020B3FB /* VolumeView.swift */; };
+		84EB31F92A32F01C00FF7460 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB31F82A32F01C00FF7460 /* CellView.swift */; };
+		84EB31FC2A32F09400FF7460 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84EB31FB2A32F09400FF7460 /* SnapKit */; };
+		84EB31FE2A32F37D00FF7460 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB31FD2A32F37D00FF7460 /* Connector.swift */; };
 		84ED51432A16D89900EBA424 /* HelpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51422A16D89900EBA424 /* HelpMenu.swift */; };
 		84ED51452A17EA0500EBA424 /* ToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51442A17EA0500EBA424 /* ToolBarView.swift */; };
 		84ED51472A17ECDF00EBA424 /* FrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51462A17ECDF00EBA424 /* FrontView.swift */; };
@@ -52,6 +56,7 @@
 		841E602229FB1878008CC97A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		841E602429FC5DF2008CC97A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		841E602629FC5E21008CC97A /* ModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelList.swift; sourceTree = "<group>"; };
+		849FBBFE2A2C5F3600B85A20 /* SearchViewUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewUIKit.swift; sourceTree = "<group>"; };
 		84AC3CEE2A0DAD1700E88708 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 		84AC3CF12A0DAEF200E88708 /* MusicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListView.swift; sourceTree = "<group>"; };
 		84AC3CF92A0DB02B00E88708 /* ModelMusicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMusicList.swift; sourceTree = "<group>"; };
@@ -71,6 +76,8 @@
 		84C5D6EA2A16C1FF0020B3FB /* NameMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameMusic.swift; sourceTree = "<group>"; };
 		84C5D6EC2A16C2E10020B3FB /* ButtonPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPlayer.swift; sourceTree = "<group>"; };
 		84C5D6EE2A16C5D60020B3FB /* VolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeView.swift; sourceTree = "<group>"; };
+		84EB31F82A32F01C00FF7460 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		84EB31FD2A32F37D00FF7460 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 		84ED51422A16D89900EBA424 /* HelpMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMenu.swift; sourceTree = "<group>"; };
 		84ED51442A17EA0500EBA424 /* ToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
 		84ED51462A17ECDF00EBA424 /* FrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontView.swift; sourceTree = "<group>"; };
@@ -82,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EB31FC2A32F09400FF7460 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +121,7 @@
 				84AC3CEC2A0DAC3700E88708 /* ScreenMediateka */,
 				84AC3CED2A0DAC6300E88708 /* ScreenRadio */,
 				84C5D6C72A11615B0020B3FB /* ScreenSearch */,
+				849FBBFD2A2C5EDF00B85A20 /* ScreenSearchUIKit */,
 				84C5D6E32A16B1F90020B3FB /* PlayerMusic */,
 				841E601829FB0659008CC97A /* Preview Content */,
 			);
@@ -125,6 +134,16 @@
 				841E601929FB0659008CC97A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		849FBBFD2A2C5EDF00B85A20 /* ScreenSearchUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				84EB31FD2A32F37D00FF7460 /* Connector.swift */,
+				849FBBFE2A2C5F3600B85A20 /* SearchViewUIKit.swift */,
+				84EB31F82A32F01C00FF7460 /* CellView.swift */,
+			);
+			path = ScreenSearchUIKit;
 			sourceTree = "<group>";
 		};
 		84AC3CEC2A0DAC3700E88708 /* ScreenMediateka */ = {
@@ -295,6 +314,9 @@
 			dependencies = (
 			);
 			name = AppleMusicTask;
+			packageProductDependencies = (
+				84EB31FB2A32F09400FF7460 /* SnapKit */,
+			);
 			productName = AppleMusicTask;
 			productReference = 841E600F29FB064D008CC97A /* AppleMusicTask.app */;
 			productType = "com.apple.product-type.application";
@@ -323,6 +345,9 @@
 				Base,
 			);
 			mainGroup = 841E600629FB064D008CC97A;
+			packageReferences = (
+				84EB31FA2A32F09400FF7460 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 841E601029FB064D008CC97A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -353,6 +378,7 @@
 				84091A3F2A05AE1A00BA2855 /* RowView.swift in Sources */,
 				84ED51452A17EA0500EBA424 /* ToolBarView.swift in Sources */,
 				841E602529FC5DF2008CC97A /* ListView.swift in Sources */,
+				84EB31F92A32F01C00FF7460 /* CellView.swift in Sources */,
 				84C5D6E52A16B6720020B3FB /* DetailPlayerMusic.swift in Sources */,
 				84C5D6EB2A16C1FF0020B3FB /* NameMusic.swift in Sources */,
 				84AC3CFC2A0EB84E00E88708 /* ModelRadioList.swift in Sources */,
@@ -360,10 +386,12 @@
 				84ED51492A17EE0E00EBA424 /* LineView.swift in Sources */,
 				84C5D6E82A16BCDA0020B3FB /* PlayerLine.swift in Sources */,
 				84AC3CF22A0DAEF200E88708 /* MusicListView.swift in Sources */,
+				84EB31FE2A32F37D00FF7460 /* Connector.swift in Sources */,
 				84C5D6D52A15674A0020B3FB /* RowVerticalView.swift in Sources */,
 				84C5D6ED2A16C2E10020B3FB /* ButtonPlayer.swift in Sources */,
 				84C5D6CD2A1555C80020B3FB /* LineSearchView.swift in Sources */,
 				84C5D6E22A16959E0020B3FB /* CategoryView.swift in Sources */,
+				849FBBFF2A2C5F3600B85A20 /* SearchViewUIKit.swift in Sources */,
 				84C5D6D32A1561F60020B3FB /* ModelCategoryList.swift in Sources */,
 				84C5D6DC2A158E3F0020B3FB /* PlaylistView.swift in Sources */,
 				84ED51472A17ECDF00EBA424 /* FrontView.swift in Sources */,
@@ -579,6 +607,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84EB31FA2A32F09400FF7460 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84EB31FB2A32F09400FF7460 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84EB31FA2A32F09400FF7460 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 841E600729FB064D008CC97A /* Project object */;
 }

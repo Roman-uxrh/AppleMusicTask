@@ -22,7 +22,8 @@ struct MainView: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                     }
-                SearchView()
+//                SearchView()
+                Connector()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Поиск")
